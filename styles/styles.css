@@ -98,7 +98,7 @@ header{
 }
 
 
-    @media (min-width: 768px){
+    @media (min-width: 500px){
       body{
         padding: 30px;
       }
