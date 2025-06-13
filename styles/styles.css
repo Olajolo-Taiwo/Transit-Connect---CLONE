@@ -92,9 +92,9 @@ header{
 }
 
 
-    @media (min-width: 450px){
+    @media (min-width: 768px){
       body{
-        padding: 31px;
+        padding: 30px;
       }
       main{
 flex-direction: row;
