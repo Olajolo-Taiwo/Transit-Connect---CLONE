@@ -100,7 +100,7 @@ header{
 }
 
 
-    @media (min-width: 500px){
+    @media (min-width: 768px){
       body{
         padding: 30px;
       }
