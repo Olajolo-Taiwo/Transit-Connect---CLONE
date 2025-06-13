@@ -97,9 +97,9 @@ header{
         padding: 30px;
       }
       main{
-flex-direction: row;
-justify-content: space-between;
-align-self: start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: start;
       }
       .left-section,.right-section{
         width: 45%;
