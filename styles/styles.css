@@ -1,0 +1,146 @@
+header{
+    margin-bottom: 22px;
+    z-index: 100;
+  }
+    header span{
+      color: #fff;
+      -webkit-text-stroke: 1px #ff6781;
+      font-size: 1.2em;
+      display: block;
+      margin: 0;
+    }
+    body{
+      background-color: black;
+      font-family: 'inter', sans-serif;
+      padding: 20px;
+      position: relative;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+      gap: 20px;
+      z-index: 100;
+    }
+    .left-section{
+      display: flex;
+      flex-direction: column;
+    }
+    sup{
+      font-size: 1em;
+      margin-left: 0;
+    }
+    .left-section img{
+      width: 100%;
+      max-width: 700px;
+      display: block;
+    } 
+
+    .terms, .partner{
+      margin: 0;
+      color: #ff6781;
+      font-weight: 600;
+    }
+    .left-section .terms{
+      font-size: clamp(1.8em, 7vw, 3em);
+    }   
+        .left-section .partner{
+      font-size: clamp(3em, 7vw, 7em);
+      margin-bottom: 50px;
+    }  
+.right-section{
+  display: flex;
+  flex-direction: column;
+  maRGIN-top: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 9, 9);
+  padding: 25px 0;
+}
+
+.right-section div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px;
+}
+.right-section p{
+  color: white;
+  font-size: 1.5em;
+}
+.buttons button{
+    border: 1px solid #ff6781;
+    margin-top: 18px;
+    padding: 8px 25px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ff6781;
+    background-color: transparent;
+    cursor: pointer;
+}
+.buttons button:hover, .buttons button:active{
+  border: none;
+  background-color: #ff6781;
+  color: #fff;
+}
+
+.continue button{
+  margin-top: 25px;
+  padding: 4px 60px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+    @media (min-width: 768px){
+      body{
+        padding: 30px;
+      }
+      main{
+flex-direction: row;
+justify-content: space-between;
+align-self: start;
+      }
+      .left-section,.right-section{
+        width: 45%;
+      }
+      .left-section{
+        text-align: left;
+      }
+          .left-section .partner{
+      margin-bottom: 20px;
+    }  
+    .right-section p{
+  color: white;
+  font-size: 2em;
+  padding: 0;
+}
+.right-section{
+  margin-top: -100px;
+}
+      .buttons button{
+    padding: 8px 8px;
+    font-size: 2em;
+    width: 100%;
+    border-radius: 8px;
+}
+.buttons .buy{
+  margin-top: 0;
+}
+.buttons .sell{
+  padding: 8px 6px;
+  width: 80%;
+  margin: 25px auto;
+  font-size: 1.8em;
+}
+
+.continue button{
+  padding: 10px 80px;
+  margin-top: 90px;
+  font-size: 1em;
+  font-weight: 600;
+}
+.right-section p{
+  font-size: 2em;
+}
+    }

@@ -1,0 +1,89 @@
+.imgbox img{
+    position: absolute;
+      z-index: -1;
+}
+
+  .background img{
+      top: 1vw;
+      right: 30vw;
+    }
+      .background1 img{
+      z-index: -1;
+      left: 2vw;
+      top: -3vw;
+      width: 80px;
+    }
+    .background2 img{
+      left: 20vw;
+      top: 20vw;
+    }
+        .background3 img{
+      position: absolute;
+      z-index: -1;
+      bottom: -3.5vw;
+      right: 1vw;
+    }
+      .background4 img{
+      position: absolute;
+      z-index: -1;
+      bottom: 7vw;
+      left: 45vw;
+      width: 80px;
+    }
+
+    .background5 img{
+      position: absolute;
+      z-index: -1;
+      top: 10vw;
+      right: 5vw;
+      width: 50px;
+    }
+    .background6 img{
+      position: absolute;
+      z-index: -1;
+      bottom: 0vw;
+      left: 0vw;
+      width: 80px;
+    }
+
+      
+
+
+    @media (max-width: 768px){
+      .background img{
+      top: 1vw;
+      width: 150px;
+      right: 1vw;
+    }
+      .background1 img{
+      left: 2vw;
+      top: 1vw;
+      width: 50px;
+    }
+    .background2 img{
+      right: 40vw;
+      top: 40vw;
+    }
+        .background3 img{
+      bottom: 1vw;
+      right: 1vw;
+    }
+      .background4 img{
+      bottom: 10vw;
+      left: 15vw;
+      width: 80px;
+    }
+
+    .background5 img{
+      bottom: 80vw;
+      left: 5vw;
+      width: 80px;
+    }
+    .background6 img{
+      bottom: 120vw;
+      right: 0vw;
+      width: 80px;
+    }
+    
+    
+    }
